@@ -19,6 +19,13 @@ If you find yourself often working with timestamp and need to know what time is 
 
 - <code>Ctrl + `</code> to toggle script
 
+## Customize script
+The default script's timezone is +7. You should change timezone to match your
+
+Edit line 7 of script to your timezone
+
+```global time_zone_GMT := 7```
+
 
 
 
