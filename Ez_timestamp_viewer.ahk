@@ -1,10 +1,10 @@
-﻿#Requires AutoHotkey v2.0
+#Requires AutoHotkey v2.0
 #SingleInstance force
 Persistent
 
 
 global appEnabled := true
-global time_zone_GMT := 7
+global time_zone_GMT := DateDiff(A_Now , A_NowUTC, "Hours") ;Measure local timezone
 
 ;---Hotkeys---
 ^F1::ExitApp()
